@@ -27,7 +27,7 @@ if [ -f cluster-up/hack/common.sh ]; then
     source cluster-up/hack/common.sh
 fi
 
-export GOFLAGS="$GOFLAGS -mod=vendor -buildvcs=false"
+export GOFLAGS="$GOFLAGS -mod=vendor"
 
 KUBEVIRT_DIR="$(
     cd "$(dirname "$BASH_SOURCE[0]")/../"
