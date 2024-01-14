@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+x#!/usr/bin/env bash
 #
 # This file is part of the KubeVirt project
 #
@@ -18,6 +18,7 @@
 #
 
 set -e
+set -x
 
 source hack/common.sh
 source hack/config.sh
